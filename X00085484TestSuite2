@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.esb.ie/main/home/index.jsp" />
+<title>X00085484TestSuite2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">X00085484TestSuite2</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/main/home/index.jsp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Press</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Electric Ireland offers Nest Learning Thermostat to Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Electric Ireland offers Nest Learning Thermostat to Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.content-2col &gt; p</td>
+	<td>Ireland’s largest energy provider, Electric Ireland, today announced a new partnership with Nest to bring the Nest Learning Thermostat™ to their customers throughout Ireland. The offer is intended to bring innovative technology to both new and existing customers that will provide convenience and control in managing energy use, as well helping them realise energy savings.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=exact:http://www.electricireland.ie/nestoffer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>_blank</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Electric Ireland - Shop online for energy efficient products.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.HeaderContentArea</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
