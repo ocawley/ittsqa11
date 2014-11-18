@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.rte.ie/" />
+<title>X00085484testSuite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">X00085484testSuite</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>RTÉ Ireland's National Television and Radio Broadcaster</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>RTÉ News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#headlines &gt; article &gt; p</td>
+	<td>15.31 A two-year-old girl has died after being hit by a truck in Waterford city this morning.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Gardaí diverted to police protests - Fitzgerald</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Gardaí diverted to police protests - Fitzgerald - RTÉ News</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h1</td>
+	<td>Minister says gardaí have been diverted to police anti-water charge protests</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
